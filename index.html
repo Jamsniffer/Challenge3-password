@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -27,9 +27,16 @@
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
+        <div style="margin-left: 32%"><input type="number" id="length" style="width: 60px" value="8"> Password Length (8-128)</div>
+        <div class="check" style="margin-left: 18%">
+            <input type="checkbox" id="lwr">Lower case</input>
+            <input type="checkbox" id="upr">Upper case</input>
+            <input type="checkbox" id="nmr">Numbers</input>
+            <input type="checkbox" id="spe">Special Characters</input>
+        </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
 © 2022 GitHub, Inc.
